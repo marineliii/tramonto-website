@@ -1,0 +1,70 @@
+.jelovnik {
+  margin: 80px auto;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.jelovnik-slike {
+  min-width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 3rem 0;
+  gap: 2rem;
+}
+
+.img-wrapper {
+  max-width: 60%;
+}
+
+.jelovnik-slike img {
+  border-radius: 10px;
+  width: 100%; /* Adjusted maximum width for images */
+  object-fit: contain;
+}
+
+.jelovnik-text {
+  max-width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.jelovnik-text h1 {
+  color: hsla(28, 29%, 62%);
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.jelovnik-text p {
+  color: #f5f5f5;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 1.3rem;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f5;
+}
+
+.menu-item p {
+  max-width: 60%;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+.menu-item h3 {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 300;
+  color: hsla(28, 29%, 62%);
+}

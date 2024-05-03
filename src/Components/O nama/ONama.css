@@ -1,0 +1,53 @@
+.o-nama {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.o-nama-slike {
+  display: flex;
+  max-width: calc(100% - 31%);
+  flex-wrap: wrap; /* Allow images to wrap to next line if necessary */
+}
+
+.o-nama-slike img {
+  border-radius: 10px;
+  display: block;
+  max-width: 30%; /* Set maximum width for images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px 1%; /* Adjust margin for images */
+}
+.o-nama-slike .slika2 {
+  transform: translateY(-40px); /* Move img2 20px higher */
+}
+
+/* Adjust position of slika3 */
+.o-nama-slike .slika3 {
+  transform: translateY(25px); /* Move img3 20px lower */
+}
+.o-nama-slike .slika1 {
+  transform: translateY(40px);
+}
+.o-nama-text {
+  flex-basis: 31%;
+  padding-right: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.o-nama-text h1 {
+  color: hsla(28, 29%, 62%);
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.o-nama-text p {
+  color: #f5f5f5;
+  font-size: 1.3rem;
+  margin-right: 40px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.8;
+}
