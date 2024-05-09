@@ -12,6 +12,9 @@ import {
 import "yet-another-react-lightbox/plugins/captions.css"
 import "yet-another-react-lightbox/plugins/counter.css";
 import Images from "./images.jsx"
+import Navbar from "../../Components/Navbar/Navbar.jsx"
+import Footer from "../../Components/Footer/Footer.jsx"
+
 
 function App() {
     // const [open, setOpen] = useState<boolean>(false);
@@ -19,6 +22,8 @@ function App() {
 
     return (
         <div className="cela-strana">
+            <Navbar />
+
             <div className="header">
                 <h1>Galerija</h1>
             </div>
@@ -44,7 +49,9 @@ function App() {
                     slides={slides}
                 />
             </div>
+            <Footer />
         </div>
+
     )
 }
 

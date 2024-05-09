@@ -1,0 +1,22 @@
+.no-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.no-page h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+.no-page-p {
+  font-size: 2rem;
+}
+.no-page span {
+  color: hsla(0, 82%, 49%, 0.633);
+}
+
+.tramotno-tim-poruka {
+  margin: 5rem 0;
+  border-radius: 12px;
+  width: 25rem;
+}

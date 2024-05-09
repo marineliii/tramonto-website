@@ -24,10 +24,10 @@ const Navbar = () => {
 
     return (
         <nav className={`container ${isScrolled ? 'scrolled' : ''}`}>
-            <Link to='hero' smooth={true} offset={0} duration={500}><img src={logo} alt="logo img" className='logo' /></Link>
+            <a href="/"> <img src={logo} alt="logo img" className='logo' /></a>
             <ul>
 
-                <li>Početna</li>
+                <a href="/"><li>Početna</li></a>
                 <li>Jelovnik</li>
                 <li>O nama </li>
                 <li>Galerija</li>
@@ -36,7 +36,7 @@ const Navbar = () => {
 
 
             </ul>
-        </nav>
+        </nav >
     )
 }
 
