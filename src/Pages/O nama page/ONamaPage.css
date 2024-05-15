@@ -1,0 +1,46 @@
+.cela-strana {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.restoran {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 7rem 0;
+  margin-right: 20rem;
+}
+.text-restoran,
+.text-picerija {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-restoran h1,
+.text-picerija h1 {
+  font-size: 3rem;
+}
+.text-restoran p,
+.text-picerija p {
+  text-align: center;
+  width: 25rem;
+  font-size: 1.4rem;
+}
+.slika-restoran img,
+.slika-picerija img {
+  width: 30em;
+  height: 30rem;
+  margin-left: 10rem;
+  border-radius: 8px;
+}
+.picerija {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 7rem 0;
+  margin-left: 20rem;
+}

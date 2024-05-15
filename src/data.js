@@ -1,20 +1,20 @@
 export const slides = [
     {
       src:
-        "https://images.unsplash.com/photo-1682695796954-bad0d0f59ff1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Slide Title One",
-      description: "Slide Description One\n\nthis is new line"
+        "https://imageproxy.wolt.com/menu/menu-images/61ab773ed2746c0cb1d7b2e5/870603bc-562d-11ec-8631-0ad27d03e22c_tramonto_sendvic.jpeg",
+      title: "Tramonto Sendvič",
+      description: "Tramonto sendvič od crnog test"
     },
     {
       src:
-        "https://images.unsplash.com/photo-1682686581551-867e0b208bd1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Slide Title Two",
-      description: "Slide Description Two"
+        "https://imageproxy.wolt.com/venue/61ab75e6decb3a9f2419cb8c/46c599ea-561c-11ec-9912-d6e30ef49cc8_pljeskavica_tramonto.jpg",
+      title: "Tramonto pljeskavica",
+      description: "Tramonto pljeskavica od \n 100% juneceg mesa"
     },
     {
       src:
-        "https://images.unsplash.com/photo-1682695797221-8164ff1fafc9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Slide Title Three",
+        "https://imageproxy.wolt.com/menu/menu-images/61ab773ed2746c0cb1d7b2e5/d994add2-5ab3-11ed-a711-8a0f0fea5fad_img_4300.jpeg",
+      title: "Meksčka piletina",
       description: "Slide Description Three"
     },
     {

@@ -1,0 +1,103 @@
+.cela-strana {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-jelovnik {
+  width: 100%;
+  min-height: 40vh;
+  background-image: linear-gradient(
+      rgba(56, 55, 53, 0.3),
+      rgba(56, 55, 53, 0.7)
+    ),
+    url("../../assets/hrana2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uvod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8rem 8rem 2rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.uvod p {
+  text-align: center;
+  padding: 0 8rem;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+.dorucak {
+  width: 80vw;
+  height: 30vh;
+  background-image: linear-gradient(
+      rgba(56, 55, 53, 0.3),
+      rgba(56, 55, 53, 0.7)
+    ),
+    url("../../assets/dorucak-cover.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid hsla(28, 29%, 62%);
+}
+.hidden {
+  display: none;
+}
+
+.jela-od-juneceg-mesa {
+  width: 80vw;
+  height: 30vh;
+  background-image: linear-gradient(
+      rgba(56, 55, 53, 0.3),
+      rgba(56, 55, 53, 0.7)
+    ),
+    url("../../assets/junetina-cover.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid hsla(28, 29%, 62%);
+}
+.jela-od-svinjskog-mesa {
+  width: 80vw;
+  height: 30vh;
+  background-image: linear-gradient(
+      rgba(56, 55, 53, 0.3),
+      rgba(56, 55, 53, 0.7)
+    ),
+    url("../../assets/svinja-cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid hsla(28, 29%, 62%);
+}

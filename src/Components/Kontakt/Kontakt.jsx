@@ -23,7 +23,7 @@ const Kontakt = () => {
                     <div className='text'>
                         <h1>PORUČI HRANU</h1>
                         <p>Tvoji omiljeni specijaliteti iz Tramonto picerije <br /> od sada i na tvojoj adresi.<br />
-                            <button className='btn' >Poruči sada</button>
+                            <button className='btn'> <a href="https://wolt.com/sr/srb/kraljevo/restaurant/tramonto-kafe-restoran" target="_blank">Poruči sada</a> </button>
                         </p>
                     </div>
                 </div>
