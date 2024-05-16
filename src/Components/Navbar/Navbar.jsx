@@ -41,7 +41,7 @@ const Navbar = () => {
                 <li onClick={() => handleClick("o-nama")}>O nama </li>
                 <li onClick={() => handleClick("galerija")}>Galerija</li>
 
-                <li><Link to='contact' smooth={true} offset={-300} duration={500}>Kontakt</Link></li>
+                <li onClick={() => handleClick("contact")}>Kontakt</li>
             </ul>
         </nav >
     );

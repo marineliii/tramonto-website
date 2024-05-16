@@ -11,7 +11,7 @@ const GalerijaMain = () => {
         <div className='galerija container'>
             <div className="galerija-text">
                 <h2>Galerija</h2>
-                <p> Zavirite u tramonto</p>
+                <p> Zavirite u Tramonto</p>
                 <button onClick={() => navigate("/galerija")} className='btn'>Galerija</button>
             </div>
         </div>

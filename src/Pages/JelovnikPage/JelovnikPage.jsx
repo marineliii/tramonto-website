@@ -1,10 +1,19 @@
+/* eslint-disable no-unused-vars */
 
 
+import { useNavigate } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer"
 import Navbar from "../../Components/Navbar/Navbar"
 import "./JelovnikPage.css"
 
 const JelovnikPage = () => {
+    const navigate = useNavigate();
+
+
+    const handleClick = (putanja) => {
+        navigate(`/${putanja}`);
+    };
+
     return (
         <div className="cela-strana">
             <Navbar />
@@ -21,7 +30,7 @@ const JelovnikPage = () => {
                     naš jelovnik nudi nešto za svakog. Zajedno sa našim bogatim izborom vina i osvežavajućih napitaka,
                     garantujemo da će Vaše gastronomsko iskustvo u Tramonto biti nezaboravno.</p>
             </div>
-            <div className="dorucak">
+            <div className="dorucak" onClick={() => handleClick("jelovnik/dorucak")}>
                 <h1>Dorucak</h1>
                 <p>Počnite dan uz našu selekciju ukusnih doručaka, obogaćenih svežim sastojcima i kvalitetnim kafama.</p>
             </div>

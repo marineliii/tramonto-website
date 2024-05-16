@@ -1,0 +1,40 @@
+.cela-strana {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.kontakt-header {
+  width: 100%;
+  min-height: 40vh;
+  background-image: linear-gradient(
+      rgba(56, 55, 53, 0.3),
+      rgba(56, 55, 53, 0.7)
+    ),
+    url("../../assets/hero1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kontakt-header h1 {
+  font-size: 3.75rem;
+}
+.uvod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8rem 8rem 2rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.uvod p {
+  text-align: center;
+  padding: 0 8rem;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}

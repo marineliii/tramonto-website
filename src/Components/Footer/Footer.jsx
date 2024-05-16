@@ -22,10 +22,10 @@ const Footer = () => {
             <div className='footer-text'>
                 <h1>zapratite nas</h1>
                 <div className='social-icons'>
-                    <a href="https://www.facebook.com/p/Tramonto-kafe-restoran-100069418744056/">
+                    <a href="https://www.facebook.com/p/Tramonto-kafe-restoran-100069418744056/" target="_blank">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    <a href="https://www.instagram.com/restoran_tramonto/">
+                    <a href="https://www.instagram.com/restoran_tramonto/" target="_blank">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>

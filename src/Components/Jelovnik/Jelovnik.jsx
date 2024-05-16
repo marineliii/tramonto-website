@@ -6,16 +6,30 @@ import oNama2 from '../../assets/hrana2.png'
 import oNama3 from '../../assets/hrana3.png'
 import oNama4 from '../../assets/hrana4.png'
 import dunja from '../../assets/dunja.jpg'
+import dorucak from "../../assets/dorucak-cover.jpg"
+import svinja from "../../assets/svinja-cover.jpg"
+import junetina from "../../assets/junetina-cover.jpg"
+
+
 import testSlika from "../../assets/logo.png"
+import { useNavigate } from 'react-router-dom'
 
 
 
-const ONama = () => {
+const Jelovnik = () => {
+
+    const navigate = useNavigate();
+
+
+    const handleClick = (putanja) => {
+        navigate(`/${putanja}`);
+    };
+
     return (
         <div className='jelovnik'>
             <div className='jelovnik-text'>
                 <h1>Jelovnik</h1>
-                <p>U Dolly Bell-u, hrana je umetnost, i svaki zalogaj je prilika za istraživanje novih ukusa.
+                <p>U Tramontu, hrana je umetnost, i svaki zalogaj je prilika za istraživanje novih ukusa.
 
                     Izaberite između ukusnih doručaka, bogate selekcije bifteka, aromatičnih pasta i rižota, osvežavajućih obroka salate,
                     sočnih burgera i tortilja, toplih supa i čorbi, prefinjenih glavnih jela, svežih morskih specijaliteta,
@@ -24,21 +38,21 @@ const ONama = () => {
             <div className='jelovnik-slike'>
                 <div className="menu-item">
                     <div className="img-wrapper">
-                        <img src={dunja} alt="" className='slika4' />
+                        <img src={dorucak} alt="" onClick={() => handleClick("jelovnik/dorucak")} className='slika4' />
                     </div>
                     <h3>Dorucak</h3>
                     <p>neki dugacak tekst ne znam ti ni ja evo nek pise nesto jebem li ga</p>
                 </div>
                 <div className="menu-item">
                     <div className="img-wrapper">
-                        <img src={dunja} alt="" className='slika4' />
+                        <img src={svinja} alt="" className='slika4' />
                     </div>
                     <h3>Dorucak</h3>
                     <p>Opis dorucka</p>
                 </div>
                 <div className="menu-item">
                     <div className="img-wrapper">
-                        <img src={dunja} alt="" className='slika4' />
+                        <img src={junetina} alt="" className='slika4' />
                     </div>
                     <h3>Dorucak</h3>
                     <p>Opis dorucka</p>
@@ -68,4 +82,4 @@ const ONama = () => {
     )
 }
 
-export default ONama;
+export default Jelovnik;

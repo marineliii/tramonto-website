@@ -45,3 +45,22 @@ a {
 .btn:hover {
   background-color: hsla(28, 29%, 62%);
 }
+/* Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: 283732; /* Semi-transparent white background */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsla(28, 29%, 62%); /* Semi-transparent black handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(28, 29%, 52%);
+}

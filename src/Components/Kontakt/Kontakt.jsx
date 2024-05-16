@@ -8,7 +8,7 @@ const Kontakt = () => {
 
             <div className='reservation'>
                 <div className='reservation-img'>
-                    <div className='text'>
+                    <div className='text-rezervacija'>
                         <h1>Piće ili obrok</h1>
                         <p>Rezervišite svoje mesto u restoranu bez obzira na to da li želite intimnu večeru,
                             poslovni ručak ili opušteno veče sa prijateljima.</p>
@@ -20,9 +20,10 @@ const Kontakt = () => {
             </div>
             <div className='order-food'>
                 <div className='order-food-img'>
-                    <div className='text'>
+                    <div className='text-order'>
                         <h1>PORUČI HRANU</h1>
-                        <p>Tvoji omiljeni specijaliteti iz Tramonto picerije <br /> od sada i na tvojoj adresi.<br />
+                        <p>Tvoji omiljeni specijaliteti iz Tramonto restorana <br /> za koje će se naš Wolt partner pobrinuti da u najkracem
+                            roku stignu do Vas.<br />
                             <button className='btn'> <a href="https://wolt.com/sr/srb/kraljevo/restaurant/tramonto-kafe-restoran" target="_blank">Poruči sada</a> </button>
                         </p>
                     </div>

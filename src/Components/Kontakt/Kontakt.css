@@ -2,15 +2,26 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start; /* Align items to the start vertically */
   margin: 5rem 2rem;
 }
-.reservation {
+
+.reservation,
+.order-food {
+  flex-basis: 50%; /* Each section takes 50% of the container */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  max-width: 50%;
+}
+
+.reservation-img,
+.order-food-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: relative; /* Make position relative to allow absolute positioning */
 }
 .reservation-img {
   background-image: linear-gradient(
@@ -18,19 +29,37 @@
       rgba(56, 55, 53, 0.7)
     ),
     url("../../assets/oNama1.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  margin-right: 5rem;
 }
-.reservation-img .text {
+.order-food-img {
+  background-image: linear-gradient(
+      rgba(56, 55, 53, 0.3),
+      rgba(56, 55, 53, 0.7)
+    ),
+    url("../../assets/hrana3.png");
   display: flex;
   flex-direction: column;
-  flex: 1;
+  align-items: flex-end;
+  margin-left: 5rem;
+}
+
+.reservation-img .text,
+.order-food-img .text {
+  position: absolute; /* Position text absolutely inside the image */
+  color: #f5f5f5;
+  padding: 2rem; /* Add padding for better readability */
+}
+
+.text-rezervacija {
   text-align: left;
-  margin-left: -5rem;
+  position: relative;
+  left: -20%;
+}
+.text-order {
+  position: relative;
+  text-align: right;
+  /* right: 95%; */
+  right: -20%;
 }
 h1 {
   color: hsla(28, 29%, 62%);
@@ -42,36 +71,7 @@ p {
   font-size: 1.125rem;
   font-weight: 300;
 }
-.reservation-img .text span {
+.reservation-img .text-rezervacija span {
   font-weight: bold;
   color: hsla(28, 29%, 62%);
-}
-.order-food {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-  max-width: 50%;
-}
-.order-food-img {
-  background-image: linear-gradient(
-      rgba(56, 55, 53, 0.3),
-      rgba(56, 55, 53, 0.7)
-    ),
-    url("../../assets/hrana3.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-}
-.order-food-img .text {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  margin-right: -5rem;
-}
-.order-food-img .text button {
-  text-align: right;
 }
