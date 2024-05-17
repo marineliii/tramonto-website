@@ -41,21 +41,21 @@ const Jelovnik = () => {
                         <img src={dorucak} alt="" onClick={() => handleClick("jelovnik/dorucak")} className='slika4' />
                     </div>
                     <h3>Dorucak</h3>
-                    <p>neki dugacak tekst ne znam ti ni ja evo nek pise nesto jebem li ga</p>
+                    <p>Mozda ne mora ovde nista da pise, mozda je tako bolje</p>
                 </div>
                 <div className="menu-item">
                     <div className="img-wrapper">
                         <img src={svinja} alt="" className='slika4' />
                     </div>
-                    <h3>Dorucak</h3>
-                    <p>Opis dorucka</p>
+                    <h3>Jela od svinjskog mesa</h3>
+                    <p></p>
                 </div>
                 <div className="menu-item">
                     <div className="img-wrapper">
-                        <img src={junetina} alt="" className='slika4' />
+                        <img src={junetina} alt="" onClick={() => handleClick("jelovnik/junetina")} className='slika4' />
                     </div>
-                    <h3>Dorucak</h3>
-                    <p>Opis dorucka</p>
+                    <h3>Jela od juneceg mesa</h3>
+                    <p>Opis menija</p>
                 </div>
                 <div className="menu-item">
                     <div className="img-wrapper">

@@ -14,7 +14,7 @@ const JunetinaPage = () => {
                 <h1>Jela od junećeg mesa</h1>
             </div>
             <div className="junetina-menu">
-                <Card title="Juneća pljeskavica na kajmaku" description="100% juneće meso 200g, kajmak 100g, lepinja, crni luk" cena="980 rsd" />
+                <Card title="Primer jela bez slike" description="100% juneće meso 200g, kajmak 100g, lepinja, crni luk" cena="980 rsd" />
                 <Card imgSrc={pljeskavica} title="Juneća pljeskavica na kajmaku" description="100% juneće meso 200g, kajmak 100g, lepinja, crni luk" cena="980 rsd" />
             </div>
             <Footer />

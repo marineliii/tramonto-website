@@ -34,7 +34,7 @@ const JelovnikPage = () => {
                 <h1>Dorucak</h1>
                 <p>Počnite dan uz našu selekciju ukusnih doručaka, obogaćenih svežim sastojcima i kvalitetnim kafama.</p>
             </div>
-            <div className="jela-od-juneceg-mesa">
+            <div className="jela-od-juneceg-mesa" onClick={() => handleClick("jelovnik/junetina")}>
                 <h1>jela od juneceg mesa</h1>
                 <p>Za prave gurmane, naša selekcija bifteka pruža vrhunski doživljaj mesa.</p>
             </div>

@@ -1,12 +1,13 @@
 .card-container {
   width: 20rem;
   border-radius: 1rem;
-  box-shadow: 0px 10px 8px hsl(160, 15%, 29%);
+  box-shadow: 10px 0px 10px 8px hsl(160, 15%, 29%);
   display: block;
   align-items: center;
 
   margin: 0.5rem;
   height: fit-content;
+  min-height: 30rem;
 }
 h1 {
   font-family: "Jost";
