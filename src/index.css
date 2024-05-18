@@ -64,3 +64,17 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: hsla(28, 29%, 52%);
 }
+
+/* media query */
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 14px 32px;
+    font-size: 20px;
+  }
+}

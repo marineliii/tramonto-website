@@ -35,23 +35,119 @@ nav ul li::before {
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px; /* Adjust thickness of underline */
+  height: 2px;
   background-color: #f5f5f5;
-  transition: width 0.5s ease; /* Animate width */
+  transition: width 0.5s ease;
 }
-nav ul li:hover::before {
-  width: 100%; /* Expand width on hover */
+nav ul li:hover::before,
+nav ul li.active::before {
+  width: 100%;
 }
-
 nav ul li:hover {
-  text-decoration: none; /* Remove default underline */
+  text-decoration: none;
 }
 .scrolled {
-  background-color: hsla(
-    40,
-    3%,
-    21%,
-    0
-  ); /* Adjust background color and opacity */
-  backdrop-filter: blur(5px); /* Add blur effect */
+  background-color: hsla(40, 3%, 21%, 0);
+  backdrop-filter: blur(5px);
+}
+.menu-icon {
+  display: none;
+}
+
+.desktop-logo {
+  display: block;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+@media (max-width: 840px) {
+  .nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #283732;
+    z-index: -1;
+    width: 100%;
+    padding-top: 70px;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+  }
+  nav ul li:hover::before,
+  nav ul li.active::before {
+    width: 100%;
+  }
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hide-mobile-menu {
+    left: -1200px;
+  }
+  .desktop-logo {
+    display: none;
+  }
+  .mobile-logo {
+    display: block;
+    margin: 25px 40px;
+  }
+}
+@media (max-width: 640px) {
+  .nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #283732;
+    z-index: -1;
+    width: 100%;
+    padding-top: 70px;
+    transition: 0.7s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+  }
+  nav ul li:hover::before,
+  nav ul li.active::before {
+    width: 100%;
+  }
+  .menu-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hide-mobile-menu {
+    left: -1200px;
+  }
+  .desktop-logo {
+    display: none;
+  }
+  .mobile-logo {
+    display: block;
+    margin: 25px 40px;
+  }
 }
