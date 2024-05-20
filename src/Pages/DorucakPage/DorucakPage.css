@@ -23,7 +23,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   max-width: 80%;
   margin-bottom: 3rem;
 }

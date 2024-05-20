@@ -59,3 +59,34 @@
   font-family: "Jost", sans-serif;
   font-weight: 300;
 }
+
+/* media query */
+
+@media (max-width: 850px) {
+  .social-icons a {
+    font-size: 24px;
+  }
+  .footer-info ul li {
+    font-size: 16px;
+  }
+  .footer-text h1 {
+    font-size: 32px;
+  }
+  .footer-text p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 850px) {
+  .social-icons a {
+    font-size: 30px;
+  }
+  .footer-info ul li {
+    font-size: 14px;
+  }
+  .footer-text h1 {
+    font-size: 30px;
+  }
+  .footer-text p {
+    font-size: 14px;
+  }
+}

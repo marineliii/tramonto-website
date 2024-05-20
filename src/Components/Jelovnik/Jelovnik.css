@@ -7,6 +7,10 @@
   gap: 2rem;
 }
 
+.mobile-view-container {
+  display: none;
+}
+
 .jelovnik-slike {
   min-width: 70%;
   display: grid;
@@ -71,6 +75,9 @@
 .slika4 {
   cursor: pointer;
 }
+.jelovnik-btn {
+  display: none;
+}
 
 /* media query */
 
@@ -117,6 +124,19 @@
   }
   .jelovnik-text p {
     font-size: 14px;
-    margin: 15px auto 30px;
+    margin: 15px auto 15px;
+    display: flex;
+  }
+  .jelovnik-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .jelovnik-btn {
+    display: block;
+  }
+  .btn.jelovnik-btn {
+    font-size: 18px;
+    padding: 10px 22px;
   }
 }

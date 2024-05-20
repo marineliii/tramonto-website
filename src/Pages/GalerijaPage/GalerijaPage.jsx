@@ -17,18 +17,18 @@ import Footer from "../../Components/Footer/Footer.jsx"
 
 
 function App() {
-    // const [open, setOpen] = useState<boolean>(false);
+
     const [index, setIndex] = useState(-1)
 
     return (
-        <div className="cela-strana">
+        <>
             <Navbar />
 
             <div className="header">
                 <h1>Galerija</h1>
             </div>
 
-            <div className="slike">
+            <div className="image-container">
                 <Images data={slides} onClick={currentIndex => setIndex(currentIndex)} />
 
                 <Lightbox
@@ -49,8 +49,10 @@ function App() {
                     slides={slides}
                 />
             </div>
+
+
             <Footer />
-        </div>
+        </>
 
     )
 }

@@ -104,3 +104,61 @@ h1 {
   cursor: pointer;
   border: 1px solid hsla(28, 29%, 62%);
 }
+
+/* media query */
+
+@media (max-width: 1024px) {
+  .header-jelovnik h1 {
+    font-size: 68px;
+  }
+  .uvod h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .uvod p {
+    font-size: 24px;
+    height: 16rem;
+    width: 45rem;
+  }
+  .dorucak p,
+  .jela-od-juneceg-mesa p,
+  .jela-od-svinjskog-mesa p {
+    margin: 0 5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .dorucak p,
+  .jela-od-juneceg-mesa p,
+  .jela-od-svinjskog-mesa p {
+    margin: 0 5rem;
+    text-align: center;
+    font-size: 16px;
+  }
+  .dorucak h1,
+  .jela-od-juneceg-mesa h1,
+  .jela-od-svinjskog-mesa h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .header-jelovnik h1 {
+    font-size: 40px;
+  }
+  .uvod h1 {
+    font-size: 32px;
+  }
+  .uvod p {
+    font-size: 16px;
+    width: 45rem;
+    height: fit-content;
+  }
+}
+@media (max-width: 640px) {
+  .uvod p {
+    font-size: 12px;
+    width: 25rem;
+    min-height: 25rem;
+    display: none; /* mozda ovako pa da se na telefonu ne vidi ovaj uvodni tekst */
+  }
+}

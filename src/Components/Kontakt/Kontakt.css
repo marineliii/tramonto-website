@@ -75,3 +75,139 @@ p {
   font-weight: bold;
   color: hsla(28, 29%, 62%);
 }
+
+/* media query */
+
+@media (max-width: 850px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+  }
+  .text-rezervacija h1 {
+    font-size: 40px;
+  }
+  .text-rezervacija p {
+    font-size: 18px;
+  }
+  .text-order h1 {
+    font-size: 40px;
+  }
+  .text-order p {
+    font-size: 18px;
+  }
+  .text-order button {
+    font-size: 18px;
+  }
+
+  .reservation,
+  .order-food {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .reservation-img,
+  .order-food-img {
+    width: 24rem;
+    height: 20rem;
+    border-radius: 8px;
+    margin: 0;
+  }
+
+  .reservation-img .text,
+  .order-food-img .text {
+    position: static;
+    padding: 1rem;
+  }
+
+  .text-rezervacija,
+  .text-order {
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+  }
+
+  .text-rezervacija h1 {
+    font-size: 30px;
+  }
+  .text-rezervacija p {
+    font-size: 14px;
+  }
+  .text-order h1 {
+    font-size: 30px;
+  }
+  .text-order p {
+    font-size: 14px;
+  }
+  .text-order button {
+    font-size: 14px;
+  }
+  .reservation,
+  .order-food {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .reservation-img,
+  .order-food-img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 8px;
+    margin: 0;
+  }
+
+  .reservation-img .text,
+  .order-food-img .text {
+    position: static;
+    padding: 1rem;
+  }
+
+  .text-rezervacija,
+  .text-order {
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 1024x) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4rem 1.5rem;
+    width: fit-content;
+  }
+  .reservation,
+  .order-food {
+    flex-basis: 50%;
+    margin-bottom: 1.5rem;
+  }
+  .reservation-img,
+  .order-food-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 0;
+  }
+  .reservation-img .text-rezervacija,
+  .order-food-img .text-order {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .text-rezervacija {
+    left: -15%;
+  }
+  .text-order {
+    right: -15%;
+  }
+}

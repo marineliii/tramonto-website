@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1rem;
+  padding: 0 5%;
 }
 
 .image {
@@ -18,3 +19,9 @@
   object-fit: cover;
   border-radius: 8px;
 }
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+/* media query */

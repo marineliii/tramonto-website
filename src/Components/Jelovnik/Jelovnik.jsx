@@ -9,8 +9,6 @@ import dunja from '../../assets/dunja.jpg'
 import dorucak from "../../assets/dorucak-cover.jpg"
 import svinja from "../../assets/svinja-cover.jpg"
 import junetina from "../../assets/junetina-cover.jpg"
-
-
 import testSlika from "../../assets/logo.png"
 import { useNavigate } from 'react-router-dom'
 
@@ -24,9 +22,13 @@ const Jelovnik = () => {
     const handleClick = (putanja) => {
         navigate(`/${putanja}`);
     };
+    const handleClickJelovnik = () => {
+        navigate(`/jelovnik`);
+    };
 
     return (
         <div className='jelovnik'>
+
             <div className='jelovnik-text'>
                 <h1>Jelovnik</h1>
                 <p>U Tramontu, hrana je umetnost, i svaki zalogaj je prilika za istraživanje novih ukusa.
@@ -34,6 +36,7 @@ const Jelovnik = () => {
                     Izaberite između ukusnih doručaka, bogate selekcije bifteka, aromatičnih pasta i rižota, osvežavajućih obroka salate,
                     sočnih burgera i tortilja, toplih supa i čorbi, prefinjenih glavnih jela, svežih morskih specijaliteta,
                     odležanih mesa, slasnih kolača i mnogo više..</p>
+                <button onClick={handleClickJelovnik} className='btn jelovnik-btn'>Vidi vise</button>
             </div>
             <div className='jelovnik-slike'>
                 <div className="menu-item">
