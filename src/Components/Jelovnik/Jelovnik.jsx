@@ -35,8 +35,8 @@ const Jelovnik = () => {
 
                     Izaberite između ukusnih doručaka, bogate selekcije bifteka, aromatičnih pasta i rižota, osvežavajućih obroka salate,
                     sočnih burgera i tortilja, toplih supa i čorbi, prefinjenih glavnih jela, svežih morskih specijaliteta,
-                    odležanih mesa, slasnih kolača i mnogo više..</p>
-                <button onClick={handleClickJelovnik} className='btn jelovnik-btn'>Vidi vise</button>
+                    odležanih mesa, slasnih kolača i mnogo više.</p>
+                <button onClick={handleClickJelovnik} className='btn jelovnik-btn'>Vidi još</button>
             </div>
             <div className='jelovnik-slike'>
                 <div className="menu-item">

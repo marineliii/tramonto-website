@@ -44,3 +44,74 @@
   margin: 7rem 0;
   margin-left: 20rem;
 }
+
+/* media query */
+
+@media (max-width: 1024px) {
+  .header h1 {
+    font-size: 68px;
+  }
+  .header {
+    width: 100%;
+  }
+  .text-picerija h1,
+  .text-restoran h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .text-picerija p,
+  .text-restoran p {
+    font-size: 24px;
+  }
+  .restoran,
+  .picerija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .restoran img,
+  .picerija img {
+    margin: 5rem 0;
+    border-radius: 8px;
+  }
+  .restoran h1,
+  .picerija h1 {
+    margin-top: 3rem;
+  }
+  .restoran p,
+  .picerija p {
+    margin: 14px 32px;
+  }
+}
+@media (max-width: 850px) {
+  .header h1 {
+    font-size: 60px;
+  }
+  .header {
+    width: 100%;
+  }
+  .text-picerija h1,
+  .text-restoran h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .text-picerija p,
+  .text-restoran p {
+    font-size: 16px;
+    padding: 0 2rem;
+  }
+  .slika-restoran img,
+  .slika-picerija img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 640px) {
+  .text-restoran p,
+  .text-picerija p {
+    width: auto;
+    padding: 0 2rem;
+    font-size: 12px;
+  }
+}
